@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <!-- First EditText -->
+    <EditText
+        android:id="@+id/firstEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Second EditText -->
+    <EditText
+        android:id="@+id/secondEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFF"
+        android:layout_gravity="center" />
+
+</LinearLayout>
